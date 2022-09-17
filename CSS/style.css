@@ -1,0 +1,165 @@
+/**************************Sign In Style**************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body{
+    background-color: #062863;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.container img{
+    height: 15vh;
+    width: 200px;
+    display: block;
+    margin: 2rem auto;
+}
+section{
+    max-width: 550px;
+    width: 90%;
+    background-color: white;
+    margin: 2rem auto;
+    border-radius: 25px 25px 25px 0px;
+}
+.head{
+    text-align: center;
+    padding: 30px 0;
+    line-height: 1.5;
+}
+h2{
+    color: #083e9e;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+}
+p{
+    color: #4a5568;
+    font-size: 1.15rem;
+    letter-spacing: 0px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+.form{
+    margin: 10px 50px 30px;
+}
+.sign Label{
+    color: #4a5568;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#emailtel{
+    margin: 10px 0px 50px;
+}
+#pwd{
+    margin: 10px 0px 38px;
+}
+input{
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    /* font-weight: 600;  */
+    outline: none;
+    background-color: #edf2f7;
+    font-size: 1.8rem;
+} 
+button{
+    width: 100%;
+    padding: 18px;
+    margin-bottom: 60px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    background-color: #0d60d8;
+    color: white;
+    border-radius: 10px 10px 10px 0px;
+    font-size: 1.2rem;
+    font-weight: 550;
+    transform: .3 ease;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #062863;
+}
+
+.sign #email_error,
+.sign #pass_error{
+    margin-top: .5rem;
+    width: 300px;
+    font-size: 15px;
+    color: #083e9e;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.1);
+    padding: 5px 8px;
+    border: 3px;
+    border-radius: 1px solid #eee;
+    display: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transform: .3 ease;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+a:hover{
+    cursor: pointer;
+    color: #9a9ea3;
+}
+.foot{
+    text-align: center;
+    margin: 50px 0px;
+}
+.foot-2{
+    margin-top: 35px;
+}
+
+@media (max-width: 768px){ 
+    section{
+        width: 90%;
+    }
+    input{
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px){ 
+    .head{
+        padding: 30px 0;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .form{
+        margin: 0px 20px 0px;
+    }
+    #emailtel{
+        margin: 10px 0px 30px;
+    }
+    #pwd{
+        margin: 10px 0px 30px;
+    }
+    input{
+        padding: 10px;
+        background-color: #edf2f7;
+        font-size: 1rem;
+    } 
+    .foot{
+        margin: 40px 0px;
+    }
+    .foot-2{
+        margin-top: 30px;
+    }
+}
